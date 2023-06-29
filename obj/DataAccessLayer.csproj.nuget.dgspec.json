@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kostadin/Documents/School/12.2021-2022/Iliev/AnimeCollection/DataAccessLayer/DataAccessLayer.csproj": {}
+  },
+  "projects": {
+    "/Users/kostadin/Documents/School/12.2021-2022/Iliev/AnimeCollection/BusinessLayer/BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kostadin/Documents/School/12.2021-2022/Iliev/AnimeCollection/BusinessLayer/BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "/Users/kostadin/Documents/School/12.2021-2022/Iliev/AnimeCollection/BusinessLayer/BusinessLayer.csproj",
+        "packagesPath": "/Users/kostadin/.nuget/packages/",
+        "outputPath": "/Users/kostadin/Documents/School/12.2021-2022/Iliev/AnimeCollection/BusinessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kostadin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kostadin/Documents/School/12.2021-2022/Iliev/AnimeCollection/DataAccessLayer/DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kostadin/Documents/School/12.2021-2022/Iliev/AnimeCollection/DataAccessLayer/DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "/Users/kostadin/Documents/School/12.2021-2022/Iliev/AnimeCollection/DataAccessLayer/DataAccessLayer.csproj",
+        "packagesPath": "/Users/kostadin/.nuget/packages/",
+        "outputPath": "/Users/kostadin/Documents/School/12.2021-2022/Iliev/AnimeCollection/DataAccessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kostadin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kostadin/Documents/School/12.2021-2022/Iliev/AnimeCollection/BusinessLayer/BusinessLayer.csproj": {
+                "projectPath": "/Users/kostadin/Documents/School/12.2021-2022/Iliev/AnimeCollection/BusinessLayer/BusinessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
